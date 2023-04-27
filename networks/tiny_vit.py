@@ -647,7 +647,7 @@ class TinyViT(nn.Module):
         patch = patch.permute(0, 1, 2, 4, 3, 5).contiguous().view(B, 18, 14, 14)
 
 
-
+        # x  14,14,576
 
         if key == None:
             x = x.mean(1)

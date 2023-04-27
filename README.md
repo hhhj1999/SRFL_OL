@@ -16,7 +16,7 @@ Download the [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 Download the [NABirds](https://dl.allaboutbirds.org/nabirds) 
 You can also try other fine-grained datasets. 
 
-## Training TBMSL-Net
+## Training
 Run ``python train.py``. You may need to change the configurations in ``config.py`` or ``tiny_vit.py`` in networks.
 
 ## Evaluation
